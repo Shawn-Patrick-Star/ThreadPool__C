@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shawn/ThreadPool/ThreadPool__C/Thread_pool.cc
+Thread_pool.h
+/home/shawn/ThreadPool/ThreadPool__C/Thread_pool.h
+pthread.h
+-
+iostream
+-
+unistd.h
+-
+
+/home/shawn/ThreadPool/ThreadPool__C/Thread_pool.h
+
+/home/shawn/ThreadPool/ThreadPool__C/main.cc
+Thread_pool.h
+/home/shawn/ThreadPool/ThreadPool__C/Thread_pool.h
+iostream
+-
+unistd.h
+-
+

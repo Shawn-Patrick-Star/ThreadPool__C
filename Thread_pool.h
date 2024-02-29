@@ -1,11 +1,9 @@
 #ifndef _THREADPOOL_H
 #define _THREADPOOL_H
-#include <stdlib.h>
-#include <string.h>
 
 #define ADD_NUM 2
 #define DEL_NUM 2
-#define DEBUG 1
+#define DEBUG 0
 
 #if DEBUG
 #define Log(fmt, ...) \
